@@ -1,4 +1,11 @@
 # Starter pipeline
+- task: GetConjurSecret@1
+  inputs:
+    conjurapplianceurl: 'https://10.26.38.144'
+    conjuraccount: 'myConjurAccount'
+    conjurusername: 'admin'
+    conjurapikey: '28zf3k11hvm0gm1sycjvq3zqyap7wdjsd13bc0jb358zkr72xpsbv5'
+    ignoreSsl: true
 
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
